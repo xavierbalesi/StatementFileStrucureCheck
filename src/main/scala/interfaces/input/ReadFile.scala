@@ -8,6 +8,7 @@ import processes.records.ClosingRecordType._
 import scala.io.{BufferedSource, Source}
 import scala.util.{Failure, Success, Try}
 
+// popop
 
 object ReadFile {
   def open(fileName: String): Either[String, Iterator[String]] = {
